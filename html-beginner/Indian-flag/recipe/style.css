@@ -4,17 +4,24 @@ body{
 }
 .first{
     text-align: center;
-    background-color:#F9FBE7;
-  
+    background-color:#C8E4B2;
+    height: 100vh;
+    width:100vw;
+}
     
    
-}
+
 
 .ing{
-    background-color:#F0EDD4;
+    background-color:#9ED2BE;
    
 }
 
 .inst{
-    background-color: #EEE7DA;
+    background-color: #7EAA92;
+}
+img{
+    height: 100vh;
+    width:100vw;
+    background-size: cover;
 }
