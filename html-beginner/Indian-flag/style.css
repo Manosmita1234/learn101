@@ -23,9 +23,14 @@ width:600px;
     border-radius: 50%;
     border: 1px solid darkblue;
     position: relative;
-    transition:all 2s ease-in-out;
-    
+    animation: rotate 20s infinite reverse;
+
 }
+
+@keyframes rotate{
+      from{ transform: rotate(-360deg); }
+      to{ transform: rotate(360deg); }
+  }
 
  .line{
     position: absolute;
@@ -33,7 +38,7 @@ width:600px;
     width: 1px;
     background-color: darkblue;
     left: 50%;
-    transition:all 2s ease-in-out;
+   
     
 }
 .line:nth-child(1)
