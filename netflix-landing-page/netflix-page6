@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> netflix page 6</title>
+        <meta charset="UTF-8">
+        <style>
+            *{
+                background-color: black;
+            }
+
+            h1,h3{
+                color: white;
+                text-align: center;
+            }
+
+            button{
+                color: white;
+                background-color: rgb(210, 24, 24);
+                cursor: pointer;
+            }
+
+            .form{
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Frequently Asked Questions</h1>
+        <h3>Ready to watch? Enter your email to create or restart your membership.
+        </h3>
+        <form class="form">
+            <input type="text"  placeholder="email address">
+            <button>get started</button>
+        </form>
+    </body>
+
+</html>

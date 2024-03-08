@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+}
+h1,p{
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+button{
+    color: white;
+    background-color: #c72121;
+    cursor:pointer;
+    width: 100px;
+    height: 60px;
+
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.textbar{
+    flex-wrap: nowrap;
+    height: 50px;
+    width: 300px;
+}
+
+
+
