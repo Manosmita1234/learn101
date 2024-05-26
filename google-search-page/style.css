@@ -1,0 +1,38 @@
+
+*{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+   
+}
+
+#search-form{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap:8px;
+
+}
+ 
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#search-button {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>form</title>
+        <meta charset="UTF-8">
+        <style>
+            header{
+                text-align: center;
+                background-color: rgb(4, 73, 4);
+                color: white;
+                
+            }
+
+            button{
+                color:white;
+                background-color: red;
+                width: 100px;
+                text-align: center;
+                border-radius: 20px;
+            }
+
+            input[type="text"] {
+        border: none; 
+        outline: none; 
+        padding: 0; 
+        border-bottom: 1px solid black; 
+    }
+
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Client Details</h1>
+            <p>enter the details of all incoming clients</p>
+        </header>
+        <form style="display: flex; flex-direction: column; gap: 10px;">
+            <label id="name" for="inputfield">Client name</label>
+            <input id="name" type="text"/>
+
+            <label id="comp">Company</label>
+            <input id="comp" type="text"/>
+
+            <label id="title">Title</label>
+            <input id="title" type="text"/>
+
+            <label id="dept">Department</label>
+            <input id="dept" type="text"/>
+
+            <div>
+                <p>Preferred contact method</p>
+                <input id="email" type="radio" name="contact-method"/>
+                <label id="email">Email</label>
+            </div>
+
+            <div>
+                <input id="phone" type="radio" name="contact-method"/>
+                <label id="phone">Phone</label>
+            </div>
+
+            <label id="address">Company address</label>
+            <input id="address" type="text" value="street address"/>
+            <input id="address" type="text" value="address line 2"/>
+            <input id="address" type="text" value="city"/>
+            <input id="address" type="text" value="state/region/province"/>
+            <input id="address" type="text" value="postal/zip code"/>
+            <input id="address" type="text" value="country"/>
+
+            <label id="website">Company website</label>
+            <input id="website" type="text"/>
+
+            <label id="logo">Company logo</label>
+            <input id="logo" type="image" value="choose file"/>
+
+            <label id="time">Working hours</label>
+            <input id="time" type="text"/>
+
+            <label id="days">Working days</label>
+            <input id="days" type="text"/>
+
+            <label id="bill">Billing Cycle</label>
+           <input id="bill" type="date"/>
+
+           <label>Addtional information</label>
+           <input type="text"/>
+
+           <button>submit</button>
+
+          
+
+        </form>
+        
+    </body>
+
+</html>
+

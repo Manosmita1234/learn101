@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    text-align: center;
+    background-color:#C8E4B2;
+    height: 100vh;
+    width:100vw;
+}
+    
+   
+
+
+.ing{
+    background-color:#9ED2BE;
+   
+}
+
+.inst{
+    background-color: #7EAA92;
+}
+img{
+    height: 100vh;
+    width:100vw;
+    background-size: cover;
+}
