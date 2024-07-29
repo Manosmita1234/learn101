@@ -1,0 +1,35 @@
+#countlabel{
+    font-size: 15rem;
+    text-align: center;
+    display: block;
+    color: aliceblue;
+   
+   
+}
+*{
+    background-color: rgb(26, 24, 24);
+}
+
+#main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn{
+    background-color:rgb(209, 19, 19);
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+   
+
+  
+   
+}
+
+.btn:hover{
+    background-color:rgb(127, 7, 7)
+}
+
