@@ -1,0 +1,16 @@
+
+   body{
+        text-align: center;
+    }
+
+
+button{
+    font-size: 4rem;
+    padding: 20px 20px;
+    background-color:cadetblue;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(64, 124, 126);
+}

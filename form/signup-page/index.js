@@ -16,11 +16,11 @@ document.getElementById("signUp").addEventListener('submit', function(event) {
     const errorMessage = document.getElementById("errorMessage");
 });
 
-if(name ==="" || lName === "" || email ===""){
+/*if(name ==="" || lName === "" || email ===""){
     errorMessage.textContent = "enter all the fields"
 
 }
 else{
     alert('sign up successfull');
     errorMessage.textContent = '';
-}
+}*/

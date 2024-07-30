@@ -3,12 +3,11 @@
     <head>
         <title>Sign Up page</title>
         <meta charset="UTF-8">
-        <meta name="viewport" width="device-width" scale="1.0">
+        <meta name="viewport" content="width=device-width,scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
-           
+    
             <form id="signUp">
                 <h1>Sign Up</h1>
                 <div class="form-main">
@@ -26,29 +25,34 @@
                 <div class="form-main">
                     <input type="password" placeholder="Confirm Password" required>
                 </div>
-                <div class="form-main">
+                    <div id="gender" class="form-main">
+                        <p>gender</p>
+                        <input type="radio" id="male" value="male" name="gender">
+                        <label for="male">male</label>
+                        <input type="radio" id="female" value="female" name="gender">
+                        <label for="female">female</label>
+
+                    </div>
+                
+                <div id ="checkbox"class="form-main">
                     <input type="checkbox" id="terms" name="terms" required>
                     <label for="terms">I Agree with<a> privacy</a> and <a>policy</a></label>
                 </div>
                 
                 <p id="errorMessage"></p>
-               
-                
-               
-                
-            
-                    
+    
                     <button type="submit" id="button">Sign up</button>
                     <div class="form-main">
                         <footer>Already have an account?
                             <a>Sign In</a>
                         </footer>
                     </div>
-                    
                    
             
                 
             </form>
+           
+            
         
         <script src="index.js"></script>
     </body>

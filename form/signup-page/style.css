@@ -46,6 +46,23 @@ footer{
     margin-top: 20px;
 }
 
+#checkbox {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+#gender{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 
 
 
