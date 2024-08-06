@@ -1,0 +1,49 @@
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height: 100vh;
+   font-family: sans-serif;
+   background-color:beige;
+   
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+
+button {
+    background-color: rgb(235, 32, 32);
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 50%;
+    font-weight: bold;
+    border: 3px solid;
+}
+
+button:hover{
+    background-color: rgb(207, 17, 17);
+}
+
+#num{
+    text-align: center;
+     margin: 10px;
+     font-weight: bold;
+     border: 3px solid;
+     border-radius: 15px;
+}
+
+label{
+    font-weight: bold;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
