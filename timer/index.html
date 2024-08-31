@@ -10,17 +10,18 @@
         <div id="container">
             <h1>TIMER</h1>
             <div id="time">
-                <span id="hour">00:</span><span id="minute">00:</span><span id="second">00</span>
+                <span id="hour" class="time">00</span>:<span id="minute" class="time">00:</span>:<span id="second" class="time">00</span>
             </div>
-            <input type="number" placeholder="HH" min="0" max="12">
-            <input type="number" placeholder="MM" min="0"  max="59">
-            <input type="number" placeholder="SS" min="0" max="59"><br>
+            <input type="number" id="hourInput" placeholder="HH" min="0" max="12">
+            <input type="number" id="minuteInput"placeholder="MM" min="0"  max="59">
+            <input type="number" id="secondInput"placeholder="SS" min="0" max="59"><br>
             
             
                 <button id="startbtn" class="btn">START</button>
                 <button id="stopbtn" class="btn">STOP</button>
             
         </div>
+        <script src="index.js"></script>
         
        
     </body>
